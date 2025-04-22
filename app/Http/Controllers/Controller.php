@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
-abstract class Controller
+class Controller
 {
-    //
+    public function test(){
+        return view('test');
+    }
 }
